@@ -48,6 +48,13 @@ class Transactions extends Component {
         );
     }
 
+    // Calling the getData function after the component has mounted
+    componentDidMount() {
+        this.getData();
+    }
+
+    
+
 
 }
 
