@@ -13,7 +13,7 @@ class App extends Component {
           <h2>The Royal Bank of Flatiron</h2>
         </header>
 
-        {/* <Transactions /> */}
+        <Transactions />
       </div>
     );
   }
