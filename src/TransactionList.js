@@ -14,6 +14,7 @@ function TransactionList({ transaction }) {
 
 
     return (
+        
         <table>
             <thead>
                 <tr>
