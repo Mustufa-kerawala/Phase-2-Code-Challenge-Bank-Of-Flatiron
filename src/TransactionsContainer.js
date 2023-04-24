@@ -16,7 +16,7 @@ function TransactionsContainer() {
         fetch(" http://localhost:3000/transactions" + query)
             .then((response) => response.json())
             .then((data) => setTransactions(data));
-    }, [query]);
+    });
 
     return (
         <>
@@ -29,4 +29,4 @@ function TransactionsContainer() {
 
 }
 
-export default Transactions;
+export default TransactionsContainer;
