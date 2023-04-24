@@ -23,3 +23,12 @@ return (
                 </table>
             </div>
         );
+
+
+<tr>
+            <td>{transactions.date}</td>
+            <td>{transactions.description}</td>
+            <td>{transactions.amount}</td>
+            <td>{transactions.category}</td>
+
+        </tr>
