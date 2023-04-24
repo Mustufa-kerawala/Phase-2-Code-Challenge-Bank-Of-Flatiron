@@ -1,4 +1,4 @@
-# Title
+# Flatiron Bank Coding Challenge
 
 ##### Mustufa Kerawala
 
@@ -12,14 +12,16 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>Add the decription of your project here.</p>
+<p>Using React for rendering an app with a list of trasactions and a functionality to add or remove transactions </p>
 
 ## Installation
 
 ### Requirements
+<p>Dependencies include node and react </p>
 
 
 ### Installation Process
+npm install && npm start
 
 [Go Back to the top](#title)
 
@@ -29,7 +31,10 @@
 
 * CSS
 
-e.t.c,...
+* JS
+
+* React
+
 
 [Go Back to the top](#title)
 
@@ -39,8 +44,6 @@ e.t.c,...
 [Go Back to the top](#title)
 
 ## Authors Info
-
-
-LinkedIn - [Your Name Here](Your LinkedIn Profile Link Here)
+LinkedIn - [Mustufa Kerawala](https://www.linkedin.com/in/mustufakerawala/)
 
 [Go Back to the top](#title)
