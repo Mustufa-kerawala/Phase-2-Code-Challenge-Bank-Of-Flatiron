@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
-import Transactions from './Transactions';
+import TransactionList from './TransactionList';
 
 
 class App extends Component {
@@ -13,7 +13,9 @@ class App extends Component {
           <h2>The Royal Bank of Flatiron</h2>
         </header>
 
-        <Transactions />
+        <div className='transaction-container'>
+          {/* <TransactionList /> */}
+        </div>
       </div>
     );
   }
