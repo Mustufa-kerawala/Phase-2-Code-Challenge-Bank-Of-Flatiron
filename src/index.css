@@ -40,5 +40,20 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; 
+}
+
+.searchTransactions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.searchTransactions input {
+  width: 80%;
+  height: 30px;
+  border: 1px solid #0000;
+  border-radius: 5px;
+  padding: 5px;
 }

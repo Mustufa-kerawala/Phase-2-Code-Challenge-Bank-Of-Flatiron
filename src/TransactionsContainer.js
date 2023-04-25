@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react";
 import TransactionList from "./TransactionList";
 import AddTransactionForm from "./AddTransactionForm";
+import Search from "./Search";
 
 
 function TransactionsContainer() {
     const [transactions, setTransactions] = useState([]);
-    const [query, setQuery] = useState([]);
+    const [query, setQuery] = useState("");
 
     
-    function handleSearch(e) {
-        setQuery(query.filter((transactions) => transactions.description.includes(e.target.value)));
-      }
     
     
     useEffect(() => {
@@ -24,6 +22,9 @@ function TransactionsContainer() {
 
     return (
         <>
+        
+        <Search transactions={transactions} setQuery={setQuery} query={query} />
+
 
         <AddTransactionForm />
 
