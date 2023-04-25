@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import TransactionList from "./TransactionList";
+import AddTransactionForm from "./AddTransactionForm";
 
 
 function TransactionsContainer() {
@@ -22,11 +23,19 @@ function TransactionsContainer() {
    
 
     return (
+        <>
+
+        <AddTransactionForm />
+
         <div className="table">
-            <input type="text" placeholder="Search..." onChange={handleSearch} />
+            
             <TransactionList transaction={transactions} />
             
         </div>
+        
+        </>
+
+        
     );
 
 
