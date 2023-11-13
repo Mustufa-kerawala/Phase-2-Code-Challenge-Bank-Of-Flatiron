@@ -104,6 +104,13 @@
       "category": "Income",
       "amount": "100",
       "id": 15
+    },
+    {
+      "date": "2023-11-13",
+      "description": "Dinner",
+      "category": "Food",
+      "amount": "2000",
+      "id": 16
     }
   ]
 }
